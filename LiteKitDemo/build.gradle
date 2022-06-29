@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+         classpath "com.android.tools.build:gradle:4.1.2"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven{ url getLocalProperty("MAVEN_REPO_LOCAL") + "/Android/repository" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+
+/**
+ * 从local.properties文件中读取配置
+ *
+ * @param propertyName 读取的参数名
+ * @return 配置value
+ */
+def getLocalProperty(String propertyName) {
+    Properties properties = new Properties()
+    try {
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    } catch (Exception e) {
+        println "read local.properties failed${e.message}"
+    }
+    String value =  properties.get(propertyName);
+    System.out.println("key: " + propertyName + ", value: " +  value)
+    return value
+}

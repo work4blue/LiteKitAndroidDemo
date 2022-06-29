@@ -7,4 +7,14 @@ LiteKit Android Demo based on Paddle Lite
 
 
 
-![Screenshot_2022_0629_123535](https://user-images.githubusercontent.com/1583762/176354646-14dfd485-610a-4693-b040-9eb4f9545b66.jpg)
+![Screenshot1](./p1.jpg)
+![Screenshot1](./p1.jpg)
+![Screenshot1](./p1.jpg)
+![Screenshot1](./p1.jpg)
+
+
+### 效果展示
+| 主界面 | 手势识别 | OCR |  视频超分 |
+| --- | --- |--- |--- |
+| <div align=center><img width="320" height="480"  src="p1.jpg"/></div> | <div align=center><img width="320" height="315"  src="p2.jpg"/></div> |<div align=center><img width="320" height="315"  src="p3.jpg"/></div> |<div align=center><img width="320" height="315"  src="p4.jpg"/></div> |
+

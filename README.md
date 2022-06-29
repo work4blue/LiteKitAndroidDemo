@@ -6,11 +6,8 @@ LiteKit Android Demo based on Paddle Lite
 
 
 
-
-![Screenshot1](./p1.jpg)
-![Screenshot1](./p1.jpg)
-![Screenshot1](./p1.jpg)
-![Screenshot1](./p1.jpg)
+**编译好的apk下载**
+![apk 下载](./app-qr.png)
 
 
 ### 效果展示

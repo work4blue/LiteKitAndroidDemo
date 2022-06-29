@@ -7,7 +7,14 @@ LiteKit Android Demo based on Paddle Lite
 
 
 **编译好的apk下载**
+编译好的apk下载
 ![apk 下载](./app-qr.png)
+
+
+编译时，需要修改 
+ local.properties 中
+> MAVEN_REPO_LOCAL=/Users/bluedrum/Documents/robot-prj/LiteKitAndroidDemo/LiteKitLib
+的指向目录修改成你本机目录
 
 
 ### 效果展示
